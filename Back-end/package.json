@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "1. **Fork Repository**: Begin by forking the backend repository to your local machine.\r 2. **Create a New Branch**: Create a new branch with the name `firstname-lastname` to work on your project.\r 3. **Node.js Project**: Set up a new Node.js project for the backend.\r 4. **Install Dependencies**: Install the required dependencies.\r 5. **Create database**: Create a new database for the project using MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3"
+  }
+}
